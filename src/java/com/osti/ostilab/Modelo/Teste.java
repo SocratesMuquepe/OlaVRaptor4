@@ -12,4 +12,11 @@ package com.osti.ostilab.Modelo;
 public class Teste {
     String titulo;
     int feito_por;
+    public String getTitulo(){
+        return titulo;
+    }
+    
+    public int getFeito_por(){
+        return feito_por;
+    }
 }
